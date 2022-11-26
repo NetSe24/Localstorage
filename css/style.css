@@ -1,4 +1,33 @@
-#input{
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+button:nth-child(1) {
+    background: green;
+}
+
+button:nth-child(2) {
+    background: yellow;
+}
+
+#logo {
+    width: 60px;
+    height: 10vh;
+    box-shadow: #11111a1a 0px 8px 24px, #11111a1a 0px 16px 56px, #11111a1a 0px 24px 80px;
+}
+
+#input {
     padding: 5px;
-    
 }

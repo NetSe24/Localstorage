@@ -1,4 +1,11 @@
-header {
+body {
+    background: #adeaf352;
+}
+header{
+    top: 10px;
+    position: sticky;
+}
+.head {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,23 +18,57 @@ button {
     border-radius: 5px;
     font-size: 15px;
     font-weight: bold;
+    touch-action: auto;
+    color: white;
 
 }
 
 button:nth-child(1) {
-    background: green;
+    background: blue;
 }
 
 button:nth-child(2) {
-    background: yellow;
+    background: #ff0000;
 }
 
 #logo {
-    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
     height: 10vh;
-    box-shadow: #11111a1a 0px 8px 24px, #11111a1a 0px 16px 56px, #11111a1a 0px 24px 80px;
+}
+
+#logo_img {
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: #f54c2a40 0px 50px 100px -20px, #f136364d 0px 30px 60px -30px, #0668cbbc 0px -2px 6px 0px inset;
+}
+
+.logo_text {
+    font-weight: bold;
+    color: red;
+}
+
+h1>span {
+    color: blue;
+}
+
+.title>p {
+    font-weight: bold;
+    margin: -50px;
+    padding-left: 55px;
+    padding-top: 10px;
 }
 
 #input {
     padding: 5px;
+}
+
+.image_shop {
+    margin-top: 2%;
+    margin-left: 3.1%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/shop.png);
+    background-repeat: no-repeat;
 }
